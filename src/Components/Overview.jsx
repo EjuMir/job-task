@@ -21,7 +21,7 @@ function Overview() {
   ];
 
   return (
-    <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-2 mt-6">
+    <div className="grid grid-cols-1 gap-6 mt-6">
       {courses.map((course, index) => (
         <div
           key={index}

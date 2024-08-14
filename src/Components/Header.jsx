@@ -3,6 +3,7 @@ import { FaSearch, FaBell } from 'react-icons/fa';
 
 function Header() {
   return (
+    <nav>
     <div className="flex justify-between items-center bg-gray-50 py-4">
       <h2 className="text-3xl font-semibold text-gray-700">Overview</h2>
       <div className="flex items-center space-x-6">
@@ -25,6 +26,7 @@ function Header() {
         </div>
       </div>
     </div>
+    </nav>
   );
 }
 
